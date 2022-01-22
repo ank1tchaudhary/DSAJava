@@ -36,31 +36,52 @@ public class GoogleDemo {
     public static void main(String[] args) {
 
         int sum = 8;
-        System.out.println(getArrayOutput(new int[]{1, 2, 3, 4}, sum));
-        System.out.println(getArrayOutput(new int[]{1, 2, 4, 4}, sum));
+//        System.out.println(getArrayOutput(new int[]{1, 2, 3, 4}, sum));
+//        System.out.println(getArrayOutput(new int[]{1, 2, 4, 4}, sum));
+        System.out.println(getArrayOutput1(new int[]{1, 2, 3, 4,}, sum));
+        System.out.println(getArrayOutput1(new int[]{1, 2, 4, 4}, sum));
 
 
     }
 
     //better
+    //Best case scenario O(n)
     public static boolean getArrayOutput(int[] arr, int sum) {
-
+        //space complexity will be : O(n) since we have introduced one Set object, and we are inserting elements in it with iterations.
+        //time complexity will be same O(n) since we are using only one loop
         Set<Integer> complement = new HashSet<>();
-        int len = arr.length;
 
-        for (int i = 0; i < len; i++) {
-            if (complement.contains(arr[i])) {
-                System.out.println("=="+complement);
+        for (int j : arr) {
+            if (complement.contains(j)) {
+                System.out.println("==" + complement);
 
                 return true;
             } else
-                complement.add(sum - arr[i]);
+                complement.add(sum - j);
         }
         System.out.println("=="+complement);
 
         return false;
 
 
+    }
+
+    //Naive
+    //Worst case scenario O(n^2)
+    public static boolean getArrayOutput1(int[] arr, int sum){
+        //space complexity will be : O(1) since we are not storing any element
+        //time complexity will be  O(n^2) since we are using 1 outer and 1 inner loop
+        int len = arr.length;
+        //looping through array from 0th to last element
+        for(int i =0; i<len-1; i++){
+            // looping through array from 1st to last element
+            for(int j = i+1;j<len; j++){
+                // comparing each element with sum
+                if (arr[i] + arr[j] == sum)
+                    return true;
+            }
+        }
+        return  false;
     }
 
 }
