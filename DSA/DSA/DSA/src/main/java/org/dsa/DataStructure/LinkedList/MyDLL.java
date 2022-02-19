@@ -42,6 +42,7 @@ public class MyDLL {
             linkedList.tail.next = newNode;
             linkedList.tail=newNode;
         }
+        linkedList.tail.prev = linkedList.head.next;
         linkedList.length++;
         return  linkedList;
     }
@@ -57,15 +58,15 @@ public class MyDLL {
 
 
     //need to fix
-//    public MyDLL insert(MyDLL linkedList,int index, Object value){
-//        Node newNode = new Node(value);
-//        Node from = traverse(linkedList,index-1);
-//        Node next = from.next;
-//        from.next = newNode;
-//        newNode.next = next;
-//        newNode.prev = from;
-//        return linkedList;
-//    }
+    public MyDLL insert(MyDLL linkedList,int index, Object value){
+        Node newNode = new Node(value);
+        Node from = traverse(linkedList,index-1);
+        Node next = from.next;
+        from.next = newNode;
+        newNode.next = next;
+        linkedList.length++;
+        return linkedList;
+    }
 
     private Node traverse(MyDLL linkedList,int index){
         Node currentNode = linkedList.head;
@@ -77,6 +78,11 @@ public class MyDLL {
         return currentNode;
     }
 
+    public Node reverse(MyDLL linkedList){
+        Node current = linkedList.head;
+
+        return null;
+    }
 
 
     public static void main(String[] args) {
@@ -84,7 +90,9 @@ public class MyDLL {
         doublyLinkedList.append(doublyLinkedList,5);
         doublyLinkedList.append(doublyLinkedList,10);
         doublyLinkedList.prepend(doublyLinkedList,1);
-//        doublyLinkedList.insert(doublyLinkedList,1,3);
-        System.out.println(new Gson().toJson(doublyLinkedList));
+        doublyLinkedList.insert(doublyLinkedList,1,3);
+        System.out.println("main    :  "+new Gson().toJson(doublyLinkedList));
+        System.out.println("reverse :  "+new Gson().toJson(doublyLinkedList.reverse(doublyLinkedList)));
+
     }
 }
