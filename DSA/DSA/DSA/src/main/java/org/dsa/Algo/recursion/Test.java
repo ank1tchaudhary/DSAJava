@@ -1,4 +1,4 @@
-package org.dsa.Algo;
+package org.dsa.Algo.recursion;
 
 public class Test  {
 

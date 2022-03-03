@@ -1,4 +1,4 @@
-package org.dsa.Algo;
+package org.dsa.Algo.recursion;
 
 //1. identify the best case
 //2. identity the recursive case
