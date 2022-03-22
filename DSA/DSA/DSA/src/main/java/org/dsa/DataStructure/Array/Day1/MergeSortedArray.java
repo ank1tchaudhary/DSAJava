@@ -8,7 +8,7 @@ public class MergeSortedArray {
 
     public static void main(String[] args) {
 
-        int[] a={1,2,3,1,7};
+        int[] a={1,2,3,7};
         int[] b={4,5,6};
         Arrays.stream(mergeArray(a,b)).forEach(System.out::println);
 

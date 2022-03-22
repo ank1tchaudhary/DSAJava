@@ -1,0 +1,11 @@
+
+T
+java:S1854"7Remove this useless assignment to local variable "arr".(ŞÆ”ğ8™Åƒ‡õ/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ñ°Ä‘şÿÿÿÿ8ˆÆƒ‡õ/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÓéÃûÿÿÿÿ8‘Æƒ‡õ/
+]	java:S125"<This block of commented-out lines of code should be removed.(€œÈ°ûÿÿÿÿ8‘Æƒ‡õ/
+E
+java:S1481"(Remove this unused "arr" local variable.(ŞÆ”ğ8’Æƒ‡õ/
+c
+java:S1192"FDefine a constant instead of duplicating this literal "Kumar" 3 times.(ÂÂë8›Æƒ‡õ/
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(úûÈÏ8³Æƒ‡õ/

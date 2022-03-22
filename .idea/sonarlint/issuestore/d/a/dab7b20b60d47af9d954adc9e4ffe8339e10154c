@@ -1,0 +1,11 @@
+
+m
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ÆÃ¼ùÿÿÿÿ
+m
+java:S37761"RRefactor this method to reduce its Cognitive Complexity from 63 to the 15 allowed.(ôØÜ¯ûÿÿÿÿ
+1
+java:S36266"Remove this redundant jump.(ûÁİ…
+S	java:S1065"9Replace this use of System.out or System.err by a logger.(¶ŒĞªÿÿÿÿÿ
+O	java:S106‡"9Replace this use of System.out or System.err by a logger.(™óòº
+T	java:S106ˆ"9Replace this use of System.out or System.err by a logger.(îêå¹ıÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(èëüúÿÿÿÿ

@@ -1,0 +1,12 @@
+
+Z
+java:S1854&"?Remove this useless assignment to local variable "currentNode".(üé–”ıÿÿÿÿ
+K
+java:S1481&"0Remove this unused "currentNode" local variable.(üé–”ıÿÿÿÿ
+Q
+java:S1854R";Remove this useless assignment to local variable "current".(¯•ç¹
+B
+java:S1481R",Remove this unused "current" local variable.(¯•ç¹
+N	java:S106^"9Replace this use of System.out or System.err by a logger.(Ãö–
+S	java:S106_"9Replace this use of System.out or System.err by a logger.(èçÇ†üÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‡û…

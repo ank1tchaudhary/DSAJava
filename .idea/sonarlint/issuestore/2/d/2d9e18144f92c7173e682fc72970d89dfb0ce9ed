@@ -1,0 +1,19 @@
+
+U
+java:S1854":Remove this useless assignment to local variable "length".(Á°šÁÿÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(‚òÖ¬üÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(¢šÍ¶
+F
+java:S1481"+Remove this unused "length" local variable.(Á°šÁÿÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(‰øï
+Q	java:S125"<This block of commented-out lines of code should be removed.(™ýä­
+N	java:S106!"9Replace this use of System.out or System.err by a logger.(‚¨Ö§
+V	java:S125&"<This block of commented-out lines of code should be removed.(¨‚úáüÿÿÿÿ
+N	java:S1067"9Replace this use of System.out or System.err by a logger.(Áß‡Ü
+N	java:S106?"9Replace this use of System.out or System.err by a logger.(úÑ
+N	java:S106G"9Replace this use of System.out or System.err by a logger.(Äª”â
+S	java:S106O"9Replace this use of System.out or System.err by a logger.(›ð”¢ùÿÿÿÿ
+k	java:S117-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥Ú°´üÿÿÿÿ
+r
+java:S1488."\Immediately return this expression instead of assigning it to the temporary variable "fact".(ìÂ“æ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(«Ñýð

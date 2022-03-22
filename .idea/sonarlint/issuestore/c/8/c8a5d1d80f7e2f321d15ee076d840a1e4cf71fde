@@ -1,0 +1,11 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¾î«â
+S	java:S106!"9Replace this use of System.out or System.err by a logger.(À£êæýÿÿÿÿ
+M	java:S1067"9Replace this use of System.out or System.err by a logger.(ÇÑ×
+N	java:S106F"9Replace this use of System.out or System.err by a logger.(±§ý×
+N	java:S106H"9Replace this use of System.out or System.err by a logger.(¢˜ð‡
+J
+java:S1128"4Remove this unused import 'java.util.stream.Stream'.(ó÷Ž”
+D
+java:S1121%".Extract the assignment out of this expression.(ÄŽõŠ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(êóžÎ
